@@ -1160,12 +1160,18 @@ img {
 }
 
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1157px) {
 
     .page-footer {
         max-width: 768px;
-        padding: 108px;
+        padding-left: 108px;
+
     }
+}
+
+@media screen and (min-width: 768px) {
+
+
 
     .container.footer {
         display: flex;
@@ -1194,7 +1200,10 @@ img {
 
     }
 
-
+    .soc-footer {
+        margin-right: auto;
+        margin-left: 0;
+    }
 
     .footer-social-list {
         display: flex;
@@ -1234,6 +1243,10 @@ img {
 
     .page-footer {
         max-width: 1440px;
+    }
+
+    .footer-main-desc {
+        margin-right: 120px;
     }
 
     .subscribe-form {
