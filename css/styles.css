@@ -144,7 +144,7 @@ img {
 
 }
 
-.mobile-menu-backdrop.menu-is-open {
+.mobile-menu-backdrop.is-open {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
@@ -268,8 +268,7 @@ img {
 
 .menu-icon-link .soc-icon {
     fill: #F4F4FD;
-    width: 24px;
-    height: 24px;
+
 
 
 
@@ -344,7 +343,7 @@ img {
     .list-contact {
         color: #434455;
         font-size: 12px;
-        line-height: 1.6;
+        line-height: 1.17;
         letter-spacing: 0.04em;
         display: flex;
         gap: 12px;
@@ -615,6 +614,8 @@ img {
 
     .features {
         max-width: 1440px;
+        padding-top: 120px;
+        padding-bottom: 120px;
     }
 
     .features-list {
@@ -659,6 +660,7 @@ img {
 
     background-color: #f4f4fd;
     margin: 0% auto;
+
 
 }
 
@@ -788,7 +790,8 @@ img {
 @media screen and (min-width: 1158px) {
     .team {
         max-width: 1440px;
-
+        padding-top: 120px;
+        padding-bottom: 120px;
 
     }
 
@@ -847,7 +850,7 @@ img {
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
         0 1px 1px 0 rgba(46, 47, 66, 0.16),
         0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    margin-bottom: 48px;
+
 
 }
 
@@ -957,6 +960,8 @@ img {
 
     .portfolio {
         max-width: 1440px;
+        padding-top: 120px;
+        padding-bottom: 120px;
     }
 
 
@@ -971,6 +976,17 @@ img {
 
     .portfolio-list-item {
         flex-basis: calc((100% - 48px) / 3);
+        box-shadow: none;
+        transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+
+
+    .portfolio-list-item:hover,
+    .portfolio-list-item:focus {
+        box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+            0 1px 1px 0 rgba(46, 47, 66, 0.16),
+            0 1px 6px 0 rgba(46, 47, 66, 0.08);
     }
 
     .portfolio-photo {
@@ -1064,6 +1080,7 @@ img {
 
 .subscribe-form {
     max-width: 288px;
+
 
 
 
@@ -1218,6 +1235,10 @@ img {
     .page-footer {
         max-width: 1440px;
     }
+
+    .subscribe-form {
+        margin-left: auto;
+    }
 }
 
 
@@ -1260,7 +1281,7 @@ img {
     left: 50%;
     transform: translate(-50%, -50%);
     max-width: 288px;
-    min-height: 100vh;
+
 
     border-radius: 4px;
     padding-bottom: 24px;
