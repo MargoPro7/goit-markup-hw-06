@@ -50,6 +50,22 @@ img {
     padding: 0 16px;
 }
 
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+
+
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .container {
+        max-width: 1440px;
+        padding: 0 15px;
+
+    }
+}
+
 .section {
     padding: 96px 16px;
 
@@ -217,7 +233,7 @@ img {
 
 .mobile-contacts {
     font-style: normal;
-
+    margin-top: auto;
     margin-bottom: 48px;
 }
 
@@ -247,6 +263,7 @@ img {
 
     align-items: center;
     gap: 40px;
+
 
 }
 
@@ -418,7 +435,7 @@ img {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(./../images/people-office-m.jpg);
     background-repeat: no-repeat;
     background-position: center center;
-    max-width: 320px;
+
     margin: 0% auto;
     background-size: cover;
 }
@@ -475,7 +492,7 @@ img {
 @media screen and (min-width: 768px) {
 
     .hero {
-        max-width: 768px;
+
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
             url(./../images/people-office-t.jpg);
 
@@ -507,7 +524,7 @@ img {
 @media screen and (min-width: 1158px) {
 
     .hero {
-        max-width: 1440px;
+
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
             url(./../images/people-office.jpg);
 
@@ -536,7 +553,7 @@ img {
 
 .features {
     background-color: inherit;
-    max-width: 320px;
+
     max-height: 888px;
     margin: 0% auto;
 
@@ -590,9 +607,7 @@ img {
 
 @media screen and (min-width: 768px) {
 
-    .features {
-        max-width: 768px;
-    }
+
 
     .features-list {
         flex-direction: row;
@@ -619,7 +634,7 @@ img {
 @media screen and (min-width: 1158px) {
 
     .features {
-        max-width: 1440px;
+
         padding-top: 120px;
         padding-bottom: 120px;
     }
@@ -662,7 +677,7 @@ img {
 /* #region team */
 
 .team {
-    max-width: 320px;
+
 
     background-color: #f4f4fd;
     margin: 0% auto;
@@ -827,7 +842,7 @@ img {
 /* #region portfolio */
 
 .portfolio {
-    max-width: 320px;
+
     margin: 0 auto;
 }
 
@@ -927,9 +942,7 @@ img {
 
 @media screen and (min-width: 768px) {
 
-    .portfolio {
-        max-width: 768px;
-    }
+
 
 
     .portfolio-list {
@@ -965,7 +978,7 @@ img {
 @media screen and (min-width: 1158px) {
 
     .portfolio {
-        max-width: 1440px;
+
         padding-top: 120px;
         padding-bottom: 120px;
     }
@@ -1016,8 +1029,9 @@ img {
 
 .page-footer {
     background-color: #2e2f42;
-    padding: 96px 0;
-    max-width: 320px;
+    padding-top: 96px;
+    padding-bottom: 96px;
+
     margin: 0% auto;
 
 
@@ -1169,7 +1183,7 @@ img {
 @media screen and (min-width: 768px) and (max-width: 1157px) {
 
     .page-footer {
-        max-width: 768px;
+
         padding-left: 108px;
 
     }
@@ -1247,9 +1261,7 @@ img {
 
 @media screen and (min-width: 1158px) {
 
-    .page-footer {
-        max-width: 1440px;
-    }
+
 
     .footer-main-desc {
         margin-right: 120px;
