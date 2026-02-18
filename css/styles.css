@@ -60,7 +60,7 @@ img {
 
 @media screen and (min-width: 1158px) {
     .container {
-        max-width: 1440px;
+        max-width: 1158px;
         padding: 0 15px;
 
     }
@@ -438,6 +438,7 @@ img {
 
     margin: 0% auto;
     background-size: cover;
+    max-width: 320px;
 }
 
 .main-title {
@@ -498,6 +499,7 @@ img {
 
         padding-bottom: 112px;
         padding-top: 112px;
+        max-width: 768px;
     }
 
     .main-title {
@@ -530,6 +532,7 @@ img {
 
         padding-bottom: 188px;
         padding-top: 188px;
+        max-width: 1440px;
     }
 
     .main-title {
