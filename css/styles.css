@@ -140,11 +140,9 @@ img {
 
     background-color: #fff;
 
-    display: flex;
-    flex-direction: column;
 
-    padding-top: 72px;
-    padding-left: 16px;
+    justify-content: center;
+    display: flex;
 
     opacity: 0;
     visibility: hidden;
@@ -158,6 +156,15 @@ img {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
+}
+
+.menu-container {
+    max-width: 320px;
+    padding-top: 72px;
+    padding-left: 16px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
 }
 
 .menu-close-popup {
@@ -183,7 +190,7 @@ img {
 }
 
 .mobile-menu-nav {
-    margin-bottom: auto;
+    margin-bottom: 168px;
 }
 
 .mobile-menu-item {
@@ -369,7 +376,7 @@ img {
         display: none;
     }
 
-    .mobile-menu-backdrop {
+    .mobile-menu {
         display: none;
     }
 }
@@ -406,7 +413,8 @@ img {
 
 .hero {
     background-color: #2e2f42;
-    padding: 72px 52px;
+    padding-bottom: 72px;
+    padding-top: 72px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(./../images/people-office-m.jpg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -471,7 +479,8 @@ img {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
             url(./../images/people-office-t.jpg);
 
-        padding: 112px 136px;
+        padding-bottom: 112px;
+        padding-top: 112px;
     }
 
     .main-title {
